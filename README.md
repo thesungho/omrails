@@ -3,4 +3,4 @@
 This is the sample application for
 [*One Month Rails: Teach Yourself to Code*](http://onemonthrails.com)
 
-By Mattan [Mattan Griffel](http://mattangriffel.com)
+By Mattan Griffel [Mattan Griffel](http://mattangriffel.com)
