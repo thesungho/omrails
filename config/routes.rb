@@ -1,6 +1,14 @@
  Omrails::Application.routes.draw do
+  devise_for :views
+
+  devise_for :users
+
   get 'about' => 'pages#about'
-  get 'product' => 'pages#product'
+  get 'food' => 'pages#food'
+  get 'nightlife' => 'pages#nightlife'
+  get 'music' => 'pages#music'
+  get 'theweirdpeople' => 'pages#theweirdpeople'
+  get 'daylife' => 'pages#daylife'
 
   root :to => 'pages#home'
 
